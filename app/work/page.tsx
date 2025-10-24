@@ -116,104 +116,184 @@ export default function WorkPage() {
       <div className="relative w-full overflow-hidden">
         <div className="flex animate-ticker">
           {/* First set of images */}
-          <div className="flex space-x-6" style={{ width: "max-content" }}>
-            <div className="w-64 h-40 relative flex-shrink-0">
+          <div className="flex" style={{ width: "max-content" }}>
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (22).jpeg"
                 alt="Creative Workspace"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
               />
             </div>
-            <div className="w-64 h-40 relative flex-shrink-0">
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (23).jpeg"
                 alt="Writing Desk"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
               />
             </div>
-            <div className="w-64 h-40 relative flex-shrink-0">
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (24).jpeg"
                 alt="Modern Office"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
               />
             </div>
-            <div className="w-64 h-40 relative flex-shrink-0">
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (25).jpeg"
                 alt="Marketing Campaign"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
               />
             </div>
-            <div className="w-64 h-40 relative flex-shrink-0">
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (26).jpeg"
                 alt="Contemplative"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
               />
             </div>
-            <div className="w-64 h-40 relative flex-shrink-0">
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (27).jpeg"
                 alt="Creative Workspace"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
+              />
+            </div>
+            <div className="w-50 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (28).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-contain rounded-lg"
+              />
+            </div>
+            <div className="w-50 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (29).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-contain rounded-lg"
+              />
+            </div>
+            <div className="w-50 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (30).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-contain rounded-lg"
+              />
+            </div>
+            <div className="w-50 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (31).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-contain rounded-lg"
+              />
+            </div>
+            <div className="w-50 h-40 relative flex-shrink-0">
+              <Image
+                src="/images.png"
+                alt="Creative Workspace"
+                fill
+                className="object-contain rounded-lg"
               />
             </div>
           </div>
           {/* Duplicate set for seamless loop */}
-          <div className="flex space-x-6" style={{ width: "max-content" }}>
-            <div className="w-64 h-40 relative flex-shrink-0">
+          <div className="flex space-x-1" style={{ width: "max-content" }}>
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (22).jpeg"
                 alt="Creative Workspace"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
               />
             </div>
-            <div className="w-64 h-40 relative flex-shrink-0">
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (23).jpeg"
                 alt="Writing Desk"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
               />
             </div>
-            <div className="w-64 h-40 relative flex-shrink-0">
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (24).jpeg"
                 alt="Modern Office"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
               />
             </div>
-            <div className="w-64 h-40 relative flex-shrink-0">
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (25).jpeg"
                 alt="Marketing Campaign"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
               />
             </div>
-            <div className="w-64 h-40 relative flex-shrink-0">
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (26).jpeg"
                 alt="Contemplative"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
               />
             </div>
-            <div className="w-64 h-40 relative flex-shrink-0">
+            <div className="w-50 h-40 relative flex-shrink-0">
               <Image
                 src="/images (27).jpeg"
                 alt="Creative Workspace"
                 fill
-                className="object-cover rounded-lg"
+                className="object-contain rounded-lg"
+              />
+            </div>
+            <div className="w-50 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (28).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-contain rounded-lg"
+              />
+            </div>
+            <div className="w-50 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (29).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-contain rounded-lg"
+              />
+            </div>
+            <div className="w-50 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (30).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-contain rounded-lg"
+              />
+            </div>
+            <div className="w-50 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (31).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-contain rounded-lg"
+              />
+            </div>
+            <div className="w-50 h-40 relative flex-shrink-0">
+              <Image
+                src="/images.png"
+                alt="Creative Workspace"
+                fill
+                className="object-contain rounded-lg"
               />
             </div>
           </div>
