@@ -90,6 +90,28 @@
   }
 }
 
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1656px);
+  }
+}
+
+.animate-ticker {
+  animation: ticker 20s linear infinite;
+  display: flex;
+  /* will-change: transform; */
+}
+
+/* Smoother animation for mobile */
+@media (max-width: 768px) {
+  .animate-ticker {
+    animation: ticker 15s linear infinite;
+  }
+}
+
 /* Added gradient text animation and smokey effects */
 @keyframes gradient-shift {
   0% {

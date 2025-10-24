@@ -107,6 +107,123 @@ export default function WorkPage() {
         <div className="container mx-auto max-w-4xl">
           <ViewportAnimation>
             <h1 className="text-6xl md:text-8xl font-bold mb-12 text-balance leading-tight text-center">
+              Brands I’ve lent my words to
+            </h1>
+          </ViewportAnimation>
+        </div>
+      </section>
+
+      <div className="relative w-full overflow-hidden">
+        <div className="flex animate-ticker">
+          {/* First set of images */}
+          <div className="flex space-x-6" style={{ width: "max-content" }}>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (22).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (23).jpeg"
+                alt="Writing Desk"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (24).jpeg"
+                alt="Modern Office"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (25).jpeg"
+                alt="Marketing Campaign"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (26).jpeg"
+                alt="Contemplative"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (27).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+          </div>
+          {/* Duplicate set for seamless loop */}
+          <div className="flex space-x-6" style={{ width: "max-content" }}>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (22).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (23).jpeg"
+                alt="Writing Desk"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (24).jpeg"
+                alt="Modern Office"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (25).jpeg"
+                alt="Marketing Campaign"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (26).jpeg"
+                alt="Contemplative"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+            <div className="w-64 h-40 relative flex-shrink-0">
+              <Image
+                src="/images (27).jpeg"
+                alt="Creative Workspace"
+                fill
+                className="object-cover rounded-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section className="pt-32 pb-20 px-6">
+        <div className="container mx-auto max-w-4xl">
+          <ViewportAnimation>
+            <h1 className="text-6xl md:text-8xl font-bold mb-12 text-balance leading-tight text-center">
               Featured Works
             </h1>
           </ViewportAnimation>
