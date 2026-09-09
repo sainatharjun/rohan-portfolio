@@ -558,6 +558,137 @@ export default function WorkPage() {
         </div>
       </section>
 
+      <section className="py-20 px-6 bg-gray-50">
+        <div className="container mx-auto max-w-5xl">
+          <ViewportAnimation>
+            <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
+              Brand Experience
+            </h2>
+          </ViewportAnimation>
+
+          <div className="divide-y divide-gray-200 border-y border-gray-200">
+            <ViewportAnimation className="stagger-1">
+              <article className="grid md:grid-cols-[240px_1fr] gap-8 md:gap-16 py-10 items-start">
+                <div className="relative flex h-24 w-full items-center justify-center" role="img" aria-label="Flipkart logo">
+                  <Image
+                    src="/Flipkart-logo.jpeg"
+                    alt="Flipkart logo"
+                    width={160}
+                    height={96}
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Worked on pitch decks and new-business strategy for Flipkart Ads, contributing to the team that eventually won the account. The work focused on building communication that could encourage Flipkart sellers to invest in advertising and grow their brands on the platform, while also developing educational content to help sellers understand and make better use of Flipkart Ads.
+                </p>
+              </article>
+            </ViewportAnimation>
+
+            <ViewportAnimation className="stagger-2">
+              <article className="grid md:grid-cols-[240px_1fr] gap-8 md:gap-16 py-10 items-start">
+                <div className="relative flex h-32 w-full items-center justify-center" role="img" aria-label="Kauvery Hospitals logo">
+                  <Image
+                    src="/Kauvery-logo.jpeg"
+                    alt="Kauvery Hospitals logo"
+                    width={224}
+                    height={128}
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Led content thinking across campaigns and social media, acting as a key content point of contact for the client. Developed campaign content and strategy while ensuring ideas were aligned with the brand’s requirements and communication objectives. Collaborated closely with DOPs and production teams, guiding the creative direction and execution of shoots to ensure the final content stayed true to the intended idea.
+                </p>
+              </article>
+            </ViewportAnimation>
+
+            <ViewportAnimation className="stagger-3">
+              <article className="grid md:grid-cols-[240px_1fr] gap-8 md:gap-16 py-10 items-start">
+                <div className="relative flex h-32 w-full items-center justify-center" role="img" aria-label="PepsiCo logo">
+                  <Image
+                    src="/Pepsico-logo.jpeg"
+                    alt="PepsiCo logo"
+                    width={224}
+                    height={128}
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Worked on the creative strategy and storyboarding for PepsiCo’s Q-commerce content across its portfolio of brands. Developed the flow and visual structure for Q-commerce creatives, considering how products needed to communicate quickly and effectively within a commerce-first environment.
+                </p>
+              </article>
+            </ViewportAnimation>
+
+            <ViewportAnimation className="stagger-4">
+              <article className="grid md:grid-cols-[240px_1fr] gap-8 md:gap-16 py-10 items-start">
+                <div className="relative flex h-32 w-full items-center justify-center" role="img" aria-label="GOX Manohar International Airport logo">
+                  <Image
+                    src="/images (27).jpeg"
+                    alt="GOX Manohar International Airport logo"
+                    width={224}
+                    height={128}
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Handled 100+ pieces of copy every month for performance creatives, working across multiple communication requirements and variables specific to the airport. The role involved constantly adapting messaging based on destinations, travel propositions, audiences, offers and performance objectives, making it a high-volume yet highly strategic copywriting assignment.
+                </p>
+              </article>
+            </ViewportAnimation>
+
+            <ViewportAnimation className="stagger-1">
+              <article className="grid md:grid-cols-[240px_1fr] gap-8 md:gap-16 py-10 items-start">
+                <div className="relative flex h-32 w-full items-center justify-center" role="img" aria-label="Casa Grand logo">
+                  <Image
+                    src="/images (23).jpeg"
+                    alt="Casa Grand logo"
+                    width={224}
+                    height={128}
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Worked on a new-business pitch that eventually helped the team win the Casa Grand account. Contributed to the pitch deck and creative thinking, and subsequently worked on the campaign’s sustenance content, helping maintain the communication system beyond the initial campaign launch.
+                </p>
+              </article>
+            </ViewportAnimation>
+
+            <ViewportAnimation className="stagger-2">
+              <article className="grid md:grid-cols-[240px_1fr] gap-8 md:gap-16 py-10 items-start">
+                <div className="relative flex h-32 w-full items-center justify-center" role="img" aria-label="Tennis Shop AE logo">
+                  <Image
+                    src="/images (24).jpeg"
+                    alt="Tennis Shop AE logo"
+                    width={224}
+                    height={128}
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Worked on a brand-film brief requiring a strong sports-led storytelling approach. Developed the brand-film idea, script and narrative flow, drawing inspiration from the storytelling conventions of leading global sports brands while building an original story around the brand.
+                </p>
+              </article>
+            </ViewportAnimation>
+
+            <ViewportAnimation className="stagger-3">
+              <article className="grid md:grid-cols-[240px_1fr] gap-8 md:gap-16 py-10 items-start">
+                <div className="relative flex h-32 w-full items-center justify-center" role="img" aria-label="Mehta Jewellery logo">
+                  <Image
+                    src="/images (25).jpeg"
+                    alt="Mehta Jewellery logo"
+                    width={224}
+                    height={128}
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Worked on a campaign pitch from the initial creative thinking through to the structure and presentation of the pitch deck. Contributed to the campaign idea and overall narrative, with the pitch eventually helping the team win the campaign.
+                </p>
+              </article>
+            </ViewportAnimation>
+          </div>
+        </div>
+      </section>
+
       {/* Modal for selected image */}
       {selectedImage && (
         <div

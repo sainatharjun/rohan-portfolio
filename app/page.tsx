@@ -131,7 +131,7 @@ export default function Home() {
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-400/20 to-blue-600/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
                 <Image
-                  src="/rohan-portfolio-image.jpg"
+                  src="/rohan-profile-img.jpeg"
                   alt="Rohan Manghat"
                   width={500}
                   height={600}
